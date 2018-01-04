@@ -2,7 +2,8 @@
   "name": "angular-input-highlight",
   "version": "0.1.2",
   "authors": [
-    "Sergii Iavorskyi <yavorskiy.s@gmail.com>"
+    "Sergii Iavorskyi <yavorskiy.s@gmail.com>",
+    "Clinton Powell <clint@cpsoft.io>"
   ],
   "description": "Angular directive adding fragment highlighting capabilities to textarea inputs",
   "main": "angular-input-highlight.js",
@@ -16,7 +17,6 @@
   ],
   "license": "MIT",
   "ignore": [
-    "**/.*",
     "node_modules",
     "bower_components",
     "test",
