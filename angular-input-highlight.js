@@ -64,6 +64,9 @@
           canvas = document.createElement('canvas');
           ctx = canvas.getContext('2d');
           var highlightService = scope.highlightService = new inputHighlightService(input, scope.highlights);
+          highlightService.onChange = function() {
+            render(scope.ngModel);
+          }
           scope.highlightColor = scope.highlightColor || function() { return 'rgba(250,150,0,0.5)' };
           render = function(text) {
             var color, containerRect, coords, data, j, k, len1, len2, marker, markers, offsetX, offsetY, originalText, re, rect, rects, ref, ref1,indexOffset;
