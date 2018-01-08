@@ -195,7 +195,9 @@
           service.highlights.splice(service.highlights.indexOf(o), 1);
         });
         if(st != null) {
-          added.push(service.highlights.push({start: min, end: max}));
+          var item = {start: min, end: max};
+          added.push(item);
+          service.highlights.push(item);
         }
       };
       
