@@ -38,7 +38,7 @@
           spread = 2;
           mirror = angular.element('<div style="position:relative"></div>')[0];
           container = angular.element('<div style="position:absolute;width:0px;height:0px;overflow:hidden;"></div>')[0];
-          sizeProps = ['width', 'font-size', 'font-family', 'font-style', 'font-weight', 'font-variant', 'font-stretch', 'line-height', 'vertical-align', 'word-spacing', 'text-align', 'letter-spacing', 'text-rendering', 'margin-top', 'margin-right', 'margin-bottom', 'margin-left', 'padding-top', 'padding-right', 'padding-bottom', 'padding-left', 'box-sizing'];
+          sizeProps = ['width', 'height', 'font-size', 'font-family', 'font-style', 'font-weight', 'font-variant', 'font-stretch', 'line-height', 'vertical-align', 'word-spacing', 'text-align', 'letter-spacing', 'text-rendering', 'margin-top', 'margin-right', 'margin-bottom', 'margin-left', 'padding-top', 'padding-right', 'padding-bottom', 'padding-left', 'box-sizing'];
           if (countScrollbar()) {
             sizeProps.push('overflow-y');
           }
