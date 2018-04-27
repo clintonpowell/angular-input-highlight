@@ -61,6 +61,7 @@
           if (style['resize'] === 'horizontal') {
             el.css('resize', 'none');
           }
+          mirror.style['word-wrap'] = mirror.style['overflow-wrap'] = 'break-word';
           canvas = document.createElement('canvas');
           ctx = canvas.getContext('2d');
           var highlightService = scope.highlightService = new inputHighlightService(input, scope.highlights);
